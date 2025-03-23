@@ -124,6 +124,25 @@ footer {
 }
 
 /* Dark Mode Styles */
+
+#darkModeToggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  font-size: 14px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#darkModeToggle:hover {
+  background: #5fa3e3;
+}
+
 .dark-mode {
   background: #222 !important;
   color: white !important;

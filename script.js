@@ -56,33 +56,18 @@ document.addEventListener("DOMContentLoaded", function () {
   // Dark Mode Toggle
   // Wait for page to load
   document.addEventListener("DOMContentLoaded", function () {
-    const darkModeToggle = document.createElement("button");
-    darkModeToggle.innerText = "🌙 Dark Mode";
-    darkModeToggle.id = "darkModeToggle";
-    document.body.prepend(darkModeToggle);
-
-    // Style the button
-    darkModeToggle.style.position = "fixed";
-    darkModeToggle.style.top = "20px";
-    darkModeToggle.style.right = "20px";
-    darkModeToggle.style.padding = "10px 15px";
-    darkModeToggle.style.fontSize = "14px";
-    darkModeToggle.style.background = "#333";
-    darkModeToggle.style.color = "white";
-    darkModeToggle.style.border = "none";
-    darkModeToggle.style.borderRadius = "5px";
-    darkModeToggle.style.cursor = "pointer";
-
+    const darkModeToggle = document.getElementById("darkModeToggle");
+  
     // Check local storage for user preference
     if (localStorage.getItem("darkMode") === "enabled") {
       document.body.classList.add("dark-mode");
       darkModeToggle.innerText = "☀ Light Mode";
     }
-
-    // Toggle dark mode
+  
+    // Toggle dark mode on button click
     darkModeToggle.addEventListener("click", function () {
       document.body.classList.toggle("dark-mode");
-
+  
       if (document.body.classList.contains("dark-mode")) {
         localStorage.setItem("darkMode", "enabled");
         darkModeToggle.innerText = "☀ Light Mode";
