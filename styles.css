@@ -123,68 +123,6 @@ footer {
   background: #5fa3e3;
 }
 
-/* Dark Mode Styles */
-
-#darkModeToggle {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  padding: 10px 15px;
-  font-size: 14px;
-  background: #333;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-
-#darkModeToggle:hover {
-  background: #5fa3e3;
-}
-
-.dark-mode {
-  background: #222 !important;
-  color: white !important;
-}
-
-.dark-mode header {
-  background: linear-gradient(90deg, #222, #444);
-}
-
-.dark-mode nav {
-  background: #111;
-}
-
-.dark-mode footer {
-  background: #333;
-}
-
-.dark-mode section {
-  background: #333;
-  color: white;
-  border-color: #555;
-}
-
-.dark-mode a {
-  color: #5fa3e3;
-}
-
-/* Dark Mode Destination Boxes */
-.dark-mode #destinations ul li {
-  background: #444;
-}
-
-.dark-mode #destinations ul li:hover {
-  background: #666;
-}
-
-/* Dark Mode Slideshow */
-.dark-mode .slideshow img {
-  filter: brightness(80%);
-}
-
-
 /* Slideshow */
 .slideshow {
   position: relative;

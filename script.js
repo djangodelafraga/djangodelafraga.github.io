@@ -53,32 +53,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  // Dark Mode Toggle
-  // Wait for page to load
-  document.addEventListener("DOMContentLoaded", function () {
-    const darkModeToggle = document.getElementById("darkModeToggle");
-  
-    // Check local storage for user preference
-    if (localStorage.getItem("darkMode") === "enabled") {
-      document.body.classList.add("dark-mode");
-      darkModeToggle.innerText = "☀ Light Mode";
-    }
-  
-    // Toggle dark mode on button click
-    darkModeToggle.addEventListener("click", function () {
-      document.body.classList.toggle("dark-mode");
-  
-      if (document.body.classList.contains("dark-mode")) {
-        localStorage.setItem("darkMode", "enabled");
-        darkModeToggle.innerText = "☀ Light Mode";
-      } else {
-        localStorage.setItem("darkMode", "disabled");
-        darkModeToggle.innerText = "🌙 Dark Mode";
-      }
-    });
-  });
-
-
   // Image Slideshow
   let slideIndex = 0;
   const slides = document.querySelectorAll(".slide");
