@@ -24,11 +24,26 @@ header h1 {
 /* Limit image size on city pages */
 .city-image {
   width: 100%; /* Makes it responsive */
-  max-width: 600px; /* Prevents it from being too large */
+  max-width: 400px; /* Prevents it from being too large */
   height: auto; /* Maintains aspect ratio */
   display: block; /* Ensures proper spacing */
   margin: 20px auto; /* Centers the image */
   border-radius: 10px; /* Optional: Adds rounded corners */
+}
+
+/* Itinerary styling */
+.itinerary {
+  max-width: 800px; /* Keeps text readable */
+  margin: 20px auto; /* Centers content */
+  padding: 20px;
+  background: white; /* Clean background */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.itinerary h2 {
+  color: #d12c2c; /* Highlight section titles */
+  margin-top: 20px;
 }
 
 
