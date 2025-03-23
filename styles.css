@@ -123,10 +123,10 @@ footer {
   background: #5fa3e3;
 }
 
-/* Dark Mode */
+/* Dark Mode Styles */
 .dark-mode {
-  background: #222;
-  color: white;
+  background: #222 !important;
+  color: white !important;
 }
 
 .dark-mode header {
@@ -144,8 +144,14 @@ footer {
 .dark-mode section {
   background: #333;
   color: white;
+  border-color: #555;
 }
 
+.dark-mode a {
+  color: #5fa3e3;
+}
+
+/* Dark Mode Destination Boxes */
 .dark-mode #destinations ul li {
   background: #444;
 }
@@ -154,28 +160,11 @@ footer {
   background: #666;
 }
 
-.dark-mode #contact a {
-  color: #5fa3e3;
+/* Dark Mode Slideshow */
+.dark-mode .slideshow img {
+  filter: brightness(80%);
 }
 
-/* Dark Mode Toggle Button */
-#darkModeToggle {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  padding: 10px 15px;
-  font-size: 14px;
-  background: #333;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-
-#darkModeToggle:hover {
-  background: #5fa3e3;
-}
 
 /* Slideshow */
 .slideshow {
