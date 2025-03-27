@@ -29,7 +29,7 @@ header {
 
 /* Logo */
 .logo {
-  height: 200%; /* Adjust for size */
+  height: 100%; /* Adjust for size */
   width: auto;
   object-fit: contain;
 }
