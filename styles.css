@@ -29,8 +29,8 @@ header {
 
 /* Logo */
 .logo img {
-  height: %100x; /* Adjust for size */
-  width: auto;
+  height: 20px; /* Adjust for size */
+  width: 20px;
 }
 
 #Logo:hover .go-back-logo {
