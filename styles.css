@@ -28,10 +28,12 @@ header {
 }
 
 /* Logo */
-.logo img {
-  height: 20px; /* Adjust for size */
-  width: 20px;
+.logo {
+  height: 100%; /* Adjust for size */
+  width: auto;
+  object-fit: contain;
 }
+
 
 #Logo:hover .go-back-logo {
   transform: scale(1.1); /* Slight zoom effect on hover */
