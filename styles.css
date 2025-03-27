@@ -29,14 +29,14 @@ header {
 
 /* Logo */
 .logo {
-  height: 100%; /* Adjust for size */
+  height: 200%; /* Adjust for size */
   width: auto;
   object-fit: contain;
 }
 
 
 #Logo:hover .go-back-logo {
-  transform: scale(1.1); /* Slight zoom effect on hover */
+  transform: scale(0.9); /* Slight zoom effect on hover */
   transition: transform 0.3s ease-in-out;
 }
 
@@ -60,7 +60,7 @@ header {
   padding: 5px;
   border-radius: 5px;
   border: none;
-  width: 200px;
+  width: 10px;
 }
 
 /* Dropdown Menu */
