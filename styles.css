@@ -21,6 +21,35 @@ header h1 {
   margin: 0;
 }
 
+/* Style the Go Back Logo */
+#goBackLogo {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.go-back-logo {
+  width: 40px; /* Size of the logo */
+  height: auto;
+  margin-top: 20px;
+}
+
+#goBackLogo:hover .go-back-logo {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+  transition: transform 0.3s ease-in-out;
+}
+
+/* If you want to position it in the top left corner, for example */
+header {
+  position: relative;
+}
+
+#goBackLogo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+
 /* Limit image size on city pages */
 .city-image {
   width: 100%; /* Makes it responsive */
