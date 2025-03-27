@@ -9,17 +9,89 @@ body {
   transition: background 0.3s ease, color 0.3s ease;
 }
 
-/* Header */
+/* Header Styling */
 header {
-  background: linear-gradient(90deg, #5fa3e3, #3a81c3);
+  background-color: #333;
   color: white;
-  padding: 1rem;
-  text-align: center;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-header h1 {
-  margin: 0;
+.header-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  justify-content: space-between;
 }
+
+/* Logo */
+.logo img {
+  height: 40px; /* Adjust for size */
+  width: auto;
+}
+
+/* Brand Name */
+.brand-name {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+}
+
+.brand-name:hover {
+  text-decoration: underline;
+}
+
+/* Search Bar */
+.search-bar {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  width: 200px;
+}
+
+/* Dropdown Menu */
+.dropdown {
+  position: relative;
+}
+
+.dropbtn {
+  background-color: #555;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  min-width: 150px;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 
 /* Style the Go Back Logo */
 #goBackLogo {

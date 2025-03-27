@@ -9,16 +9,32 @@
 <body>
 
   <!-- Header -->
+
   <header>
-    <h1>Fteri & Django's Adventures</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#destinations">Destinations</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="header-container">
+      <!-- Logo (Clickable to go home) -->
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="Logo">
+      </a>
+  
+      <!-- Brand Name (Clickable to go home) -->
+      <a href="index.html" class="brand-name">Django & Fteri Travels: Lost and loving it</a>
+  
+      <!-- Search Bar -->
+      <input type="text" placeholder="Search..." class="search-bar">
+  
+      <!-- Dropdown Menu -->
+      <nav class="dropdown">
+        <button class="dropbtn">Menu ▾</button>
+        <div class="dropdown-content">
+          <a href="#about">About</a>
+          <a href="#destinations">Destinations</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
   </header>
+  
 
   <!-- Main Content -->
   <main>
