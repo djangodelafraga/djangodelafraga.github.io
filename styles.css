@@ -31,7 +31,7 @@ header {
 }
 
 /* Logo */
-.logo {
+.logo img {
   height: 30px; /* Adjust for size */
   width: 30px;
   object-fit: contain;
