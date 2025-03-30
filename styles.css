@@ -20,9 +20,9 @@ header {
 #logo {
   display: inline-block;
   margin: 15px; /* margin: 20px was off */
-  height: 60px;
+  height: 100px;
   width: auto; /* correct proportions to specified height */
-  border-radius: 50%; /* makes it a circle */
+  border-radius: 70%; /* makes it a circle */
 }
 
 
