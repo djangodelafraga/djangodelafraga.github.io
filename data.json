@@ -6,9 +6,9 @@
     { "name": "Vienna", "url": "cities/Vienna.html" }
   ],
   "gallery": [
-    { "image": "images/image1.jpg", "alt": "Destination 1" },
-    { "image": "images/image2.jpg", "alt": "Destination 2" },
-    { "image": "images/image3.jpg", "alt": "Destination 3" },
-    { "image": "images/image4.jpg", "alt": "Destination 4" }
+    { "image": "images/lyon.jpg", "alt": "Lyon" },
+    { "image": "images/florence.jpg", "alt": "Florence" },
+    { "image": "images/rome.jpg", "alt": "Rome" },
+    { "image": "images/venice.jpg", "alt": "Venice" }
   ]
 }
