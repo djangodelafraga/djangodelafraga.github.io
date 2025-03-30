@@ -16,6 +16,16 @@ header {
     border-bottom: 3px solid #d6cbb0;
 }
 
+
+#logo {
+  display: inline-block;
+  margin: 15px; /* margin: 20px was off */
+  height: 60px;
+  width: auto; /* correct proportions to specified height */
+  border-radius: 50%; /* makes it a circle */
+}
+
+
 /* Limit image size on city pages */
 .city-image {
   width: 100%; /* Makes it responsive */
