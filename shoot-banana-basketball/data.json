@@ -1,0 +1,24 @@
+{
+  "roster": [
+    { "name": "Player 1", "position": "Guard" },
+    { "name": "Player 2", "position": "Forward" },
+    { "name": "Player 3", "position": "Center" }
+  ],
+  "merchandise": [
+    { "name": "T-Shirt", "price": 20 },
+    { "name": "Hoodie", "price": 40 }
+  ],
+  "results": [
+    { "date": "2025-04-01", "score": "80-70", "opponent": "Team A" },
+    { "date": "2025-04-08", "score": "90-85", "opponent": "Team B" }
+  ],
+  "nextMatch": {
+    "date": "2025-04-15",
+    "opponent": "Team C"
+  },
+  "youtubeHighlights": "basketakicom",
+  "comments": [
+    { "author": "Fan 1", "text": "Great game!" },
+    { "author": "Fan 2", "text": "Awesome team!" }
+  ]
+}
