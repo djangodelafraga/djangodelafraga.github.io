@@ -3,12 +3,14 @@
     { "name": "Lyon", "url": "cities/Lyon.html" },
     { "name": "Venice", "url": "cities/Venice.html" },
     { "name": "Rome", "url": "cities/Rome.html" },
-    { "name": "Vienna", "url": "cities/Vienna.html" }
+    { "name": "Vienna", "url": "cities/Vienna.html" },
+    { "name": "Mani", "url": "cities/Mani.html" }
   ],
   "gallery": [
     { "image": "images/lyon.jpg", "alt": "Lyon" },
     { "image": "images/florence.jpg", "alt": "Florence" },
     { "image": "images/rome.jpg", "alt": "Rome" },
-    { "image": "images/venice.jpg", "alt": "Venice" }
+    { "image": "images/venice.jpg", "alt": "Venice" },
+    { "image": "images/areopoli.jpg", "alt": "Areopoli" }
   ]
 }
